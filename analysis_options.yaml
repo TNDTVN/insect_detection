@@ -1,0 +1,11 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_print: false # Cho phép sử dụng print trong debug
+    prefer_single_quotes: true # Sử dụng dấu nháy đơn
+
+analyzer:
+  errors:
+    missing_required_param: error
+    invalid_use_of_visible_for_testing_member: ignore

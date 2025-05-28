@@ -1,0 +1,43 @@
+name: insect_detection
+description: A Flutter app for insect detection using YOLOv11s.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.6
+  http: ^1.2.2
+  http_parser: ^4.0.2
+  image: ^4.2.0
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  share_plus: ^7.2.1
+  flutter_spinkit: ^5.2.0
+  crypto: ^3.0.3
+  google_fonts: ^6.2.1
+  animate_do: ^3.3.4
+  shared_preferences: ^2.2.3
+  provider: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/splash.png
+    - assets/insects.json
+    - assets/profile.jpg
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/splash.png"
