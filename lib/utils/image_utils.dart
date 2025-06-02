@@ -72,3 +72,22 @@ Future<ui.Image> _toUiImage(img.Image image) async {
   ui.decodeImageFromList(byteData, completer.complete);
   return completer.future;
 }
+
+Future<File> fixImageOrientation(File imageFile) async {
+  try {
+    final bytes = await imageFile.readAsBytes();
+    final image = img.decodeImage(bytes);
+    if (image == null) {
+      print('Failed to decode image: ${imageFile.path}');
+      return imageFile;
+    }
+    final orientedImage = img.bakeOrientation(image);
+    final newPath = imageFile.path.replaceAll('.jpg', '_fixed.jpg');
+    await File(newPath).writeAsBytes(img.encodeJpg(orientedImage));
+    print('Fixed image orientation, saved to: $newPath');
+    return File(newPath);
+  } catch (e) {
+    print('Error fixing image orientation: $e');
+    return imageFile;
+  }
+}

@@ -6,7 +6,8 @@
     "vietnamese_name": "Ruồi đục thân lúa",
     "description": "Ấu trùng ăn bên trong bẹ và thân lúa non, gây dảnh héo và giảm năng suất.",
     "danger_level": "Trung bình",
-    "handling": "Sử dụng thuốc trừ sâu theo khuyến cáo, quản lý nước hợp lý."
+    "handling": "Sử dụng thuốc trừ sâu theo khuyến cáo, quản lý nước hợp lý.",
+    "image_path": "assets/insect_images/paddy_stem_maggot.png"
   },
   {
     "class_id": 1,
@@ -15,7 +16,8 @@
     "vietnamese_name": "Sâu đục rễ lúa",
     "description": "Cả ấu trùng và trưởng thành đều gây hại cho lúa. Ấu trùng ăn rễ, trưởng thành ăn lá.",
     "danger_level": "Trung bình",
-    "handling": "Luân canh, xử lý đất trước khi gieo sạ, sử dụng thuốc trừ sâu."
+    "handling": "Luân canh, xử lý đất trước khi gieo sạ, sử dụng thuốc trừ sâu.",
+    "image_path": "assets/insect_images/rice_water_weevil.jpg"
   },
   {
     "class_id": 2,
@@ -24,7 +26,8 @@
     "vietnamese_name": "Bọ nhảy",
     "description": "Bọ nhảy là nhóm bọ cánh cứng nhỏ, gây hại bằng cách ăn lá cây, tạo nhiều lỗ nhỏ.",
     "danger_level": "Thấp đến trung bình",
-    "handling": "Phun thuốc trừ sâu khi mật độ cao, giữ ẩm đất."
+    "handling": "Phun thuốc trừ sâu khi mật độ cao, giữ ẩm đất.",
+    "image_path": "assets/insect_images/flea_beetle.jpg"
   },
   {
     "class_id": 3,
@@ -33,7 +36,8 @@
     "vietnamese_name": "Dế trũi",
     "description": "Dế trũi đào hang trong đất, cắn phá rễ cây, đặc biệt là cây non.",
     "danger_level": "Trung bình",
-    "handling": "Sử dụng bẫy, thuốc trừ sâu dạng hạt hoặc dung dịch tưới vào hang."
+    "handling": "Sử dụng bẫy, thuốc trừ sâu dạng hạt hoặc dung dịch tưới vào hang.",
+    "image_path": "assets/insect_images/mole_cricket.jpg"
   },
   {
     "class_id": 4,
@@ -42,7 +46,8 @@
     "vietnamese_name": "Bọ hung",
     "description": "Đây là một loài bọ hung thuộc họ Scarabaeidae. Thông tin chi tiết về tác hại và cách xử lý có thể khác nhau tùy theo loài cụ thể.",
     "danger_level": "Trung bình",
-    "handling": "Sử dụng thuốc trừ sâu dạng hạt hoặc phun khi phát hiện mật độ cao."
+    "handling": "Sử dụng thuốc trừ sâu dạng hạt hoặc phun khi phát hiện mật độ cao.",
+    "image_path": "assets/insect_images/potosiabre_vitarsis.jpg"
   },
   {
     "class_id": 5,
@@ -51,7 +56,8 @@
     "vietnamese_name": "Cào cào",
     "description": "Cào cào là loài ăn tạp, có thể gây hại trên nhiều loại cây trồng bằng cách ăn lá và thân non.",
     "danger_level": "Trung bình đến cao (tùy mật độ)",
-    "handling": "Phun thuốc trừ sâu, sử dụng biện pháp sinh học (nấm Metarhizium)."
+    "handling": "Phun thuốc trừ sâu, sử dụng biện pháp sinh học (nấm Metarhizium).",
+    "image_path": "assets/insect_images/locustoidea.jpg"
   },
   {
     "class_id": 6,
@@ -60,7 +66,8 @@
     "vietnamese_name": "Bọ trích",
     "description": "Họ bọ cánh cứng có thể tiết chất gây phồng rộp da.",
     "danger_level": "Trung bình",
-    "handling": "Tránh tiếp xúc trực tiếp"
+    "handling": "Tránh tiếp xúc trực tiếp",
+    "image_path": "assets/insect_images/blister_beetle.jpg"
   },
   {
     "class_id": 7,
@@ -69,7 +76,8 @@
     "vietnamese_name": "Bọ Lytta",
     "description": "Loài bọ trích cụ thể, ấu trùng ăn trứng châu chấu.",
     "danger_level": "Trung bình",
-    "handling": "Kiểm soát bằng thuốc trừ sâu"
+    "handling": "Kiểm soát bằng thuốc trừ sâu",
+    "image_path": "assets/insect_images/lytta_polita.jpg"
   },
   {
     "class_id": 8,
@@ -78,7 +86,8 @@
     "vietnamese_name": "Bọ cánh cứng dài sừng",
     "description": "Đây là một chi bọ cánh cứng dài sừng. Ấu trùng thường đục thân cây gỗ, gây hại cho cây lâm nghiệp và cây ăn quả.",
     "danger_level": "Trung bình đến cao (tùy loài và cây trồng)",
-    "handling": "Phòng trừ bằng cách vệ sinh vườn, phun thuốc trừ sâu vào giai đoạn trưởng thành đẻ trứng."
+    "handling": "Phòng trừ bằng cách vệ sinh vườn, phun thuốc trừ sâu vào giai đoạn trưởng thành đẻ trứng.",
+    "image_path": "assets/insect_images/xylotrechus.jpg"
   },
   {
     "class_id": 9,
@@ -87,7 +96,8 @@
     "vietnamese_name": "Bọ ánh kim",
     "description": "Đây là một loài bọ ánh kim thuộc họ Chrysomelidae. Chúng ăn lá cây, gây hại tùy theo mật độ.",
     "danger_level": "Thấp đến trung bình",
-    "handling": "Phun thuốc trừ sâu khi cần thiết, kiểm soát cỏ dại."
+    "handling": "Phun thuốc trừ sâu khi cần thiết, kiểm soát cỏ dại.",
+    "image_path": "assets/insect_images/oides_decempunctata.jpg"
   },
   {
     "class_id": 10,
@@ -96,7 +106,8 @@
     "vietnamese_name": "Bọ đuôi kìm",
     "description": "Bọ đuôi kìm thường hoạt động về đêm, ăn tạp các loại côn trùng nhỏ, nấm mốc và cả lá cây non.",
     "danger_level": "Thấp",
-    "handling": "Vệ sinh vườn, loại bỏ nơi trú ẩn, có thể dùng bẫy."
+    "handling": "Vệ sinh vườn, loại bỏ nơi trú ẩn, có thể dùng bẫy.",
+    "image_path": "assets/insect_images/forficula_auricularia.jpg"
   },
   {
     "class_id": 11,
@@ -105,7 +116,8 @@
     "vietnamese_name": "Bọ hổ",
     "description": "Bọ hổ là loài săn mồi hung dữ, cả ấu trùng và trưởng thành đều ăn các loài côn trùng khác.",
     "danger_level": "Thấp (có lợi vì là thiên địch)",
-    "handling": "Không cần xử lý, khuyến khích sự tồn tại của chúng."
+    "handling": "Không cần xử lý, khuyến khích sự tồn tại của chúng.",
+    "image_path": "assets/insect_images/cicindela_chinensis.jpg"
   },
   {
     "class_id": 12,
@@ -114,7 +126,8 @@
     "vietnamese_name": "Bọ hung ăn phân",
     "description": "Bọ hung ăn phân động vật, có vai trò quan trọng trong việc phân hủy chất thải và cải tạo đất.",
     "danger_level": "Thấp (có lợi cho môi trường)",
-    "handling": "Không cần xử lý, bảo vệ môi trường sống của chúng."
+    "handling": "Không cần xử lý, bảo vệ môi trường sống của chúng.",
+    "image_path": "assets/insect_images/catharsius_molossus.jpg"
   },
   {
     "class_id": 13,
@@ -123,7 +136,8 @@
     "vietnamese_name": "Bọ ngựa",
     "description": "Bọ ngựa là loài côn trùng săn mồi, ăn các loài côn trùng gây hại khác.",
     "danger_level": "Thấp (có lợi vì là thiên địch)",
-    "handling": "Không cần xử lý, khuyến khích sự tồn tại của chúng."
+    "handling": "Không cần xử lý, khuyến khích sự tồn tại của chúng.",
+    "image_path": "assets/insect_images/hierodula_patellifera.jpg"
   },
   {
     "class_id": 14,
@@ -132,7 +146,8 @@
     "vietnamese_name": "Bọ xít đỏ",
     "description": "Bọ xít đỏ gây hại trên bông và một số cây trồng khác bằng cách chích hút nhựa, làm giảm chất lượng sợi và hạt.",
     "danger_level": "Trung bình đến cao",
-    "handling": "Phun thuốc trừ sâu, vệ sinh đồng ruộng, luân canh."
+    "handling": "Phun thuốc trừ sâu, vệ sinh đồng ruộng, luân canh.",
+    "image_path": "assets/insect_images/dysdercus_cingulatus.jpg"
   },
   {
     "class_id": 15,
@@ -141,7 +156,8 @@
     "vietnamese_name": "Bướm",
     "description": "Bướm là loài côn trùng có cánh lớn, thường hút mật hoa. Ấu trùng (sâu bướm) có thể ăn lá cây.",
     "danger_level": "Thấp (trừ một số loài sâu bướm gây hại)",
-    "handling": "Kiểm soát sâu bướm gây hại bằng thuốc trừ sâu sinh học hoặc thủ công."
+    "handling": "Kiểm soát sâu bướm gây hại bằng thuốc trừ sâu sinh học hoặc thủ công.",
+    "image_path": "assets/insect_images/butterfly.jpg"
   },
   {
     "class_id": 16,
@@ -150,7 +166,8 @@
     "vietnamese_name": "Sâu cuốn lá nhỏ",
     "description": "Sâu cuốn lá nhỏ hại lúa non, ấu trùng sống trong vỏ do chúng tạo ra và ăn lá.",
     "danger_level": "Trung bình",
-    "handling": "Quản lý nước, sử dụng thuốc trừ sâu khi mật độ cao."
+    "handling": "Quản lý nước, sử dụng thuốc trừ sâu khi mật độ cao.",
+    "image_path": "assets/insect_images/parapoynx_stagnalis.jpg"
   },
   {
     "class_id": 17,
@@ -159,7 +176,8 @@
     "vietnamese_name": "Cà cuống",
     "description": "Cà cuống là loài côn trùng lớn, sống dưới nước, có thể cắn đau. Chúng là loài săn mồi các loài côn trùng nhỏ và cá.",
     "danger_level": "Thấp (có thể gây đau khi bị cắn)",
-    "handling": "Tránh tiếp xúc trực tiếp."
+    "handling": "Tránh tiếp xúc trực tiếp.",
+    "image_path": "assets/insect_images/lethocerus_indicus.jpg"
   },
   {
     "class_id": 18,
@@ -168,7 +186,8 @@
     "vietnamese_name": "Chuồn chuồn",
     "description": "Chuồn chuồn là loài côn trùng bay nhanh, săn bắt các loài côn trùng bay khác như muỗi.",
     "danger_level": "Thấp (có lợi vì là thiên địch)",
-    "handling": "Không cần xử lý, bảo vệ môi trường sống của chúng."
+    "handling": "Không cần xử lý, bảo vệ môi trường sống của chúng.",
+    "image_path": "assets/insect_images/libellulidae.jpg"
   },
   {
     "class_id": 19,
@@ -177,7 +196,8 @@
     "vietnamese_name": "Dế mèn",
     "description": "Dế mèn thường hoạt động về đêm, ăn tạp các loại thực vật và côn trùng nhỏ.",
     "danger_level": "Thấp (có thể gây hại nhẹ cho cây non)",
-    "handling": "Vệ sinh vườn, sử dụng bẫy nếu cần."
+    "handling": "Vệ sinh vườn, sử dụng bẫy nếu cần.",
+    "image_path": "assets/insect_images/gryllus_bimaculatus.jpg"
   },
   {
     "class_id": 20,
@@ -186,7 +206,8 @@
     "vietnamese_name": "Gián",
     "description": "Gián là loài côn trùng gây mất vệ sinh, có thể mang mầm bệnh.",
     "danger_level": "Trung bình",
-    "handling": "Vệ sinh nhà cửa, sử dụng thuốc diệt gián, bẫy."
+    "handling": "Vệ sinh nhà cửa, sử dụng thuốc diệt gián, bẫy.",
+    "image_path": "assets/insect_images/cockroach.jpg"
   },
   {
     "class_id": 21,
@@ -195,7 +216,8 @@
     "vietnamese_name": "Kiến",
     "description": "Kiến là côn trùng sống theo đàn, thường tìm kiếm thức ăn trong nhà.",
     "danger_level": "Thấp",
-    "handling": "Vệ sinh sạch sẽ, dùng bả kiến hoặc nước rửa chén pha loãng."
+    "handling": "Vệ sinh sạch sẽ, dùng bả kiến hoặc nước rửa chén pha loãng.",
+    "image_path": "assets/insect_images/formicidae.jpg"
   },
   {
     "class_id": 22,
@@ -204,7 +226,8 @@
     "vietnamese_name": "Muỗi vằn",
     "description": "Muỗi vằn là loài muỗi truyền bệnh sốt xuất huyết, Zika và Chikungunya.",
     "danger_level": "Cao",
-    "handling": "Dùng thuốc diệt muỗi, màn ngủ, loại bỏ nước đọng."
+    "handling": "Dùng thuốc diệt muỗi, màn ngủ, loại bỏ nước đọng.",
+    "image_path": "assets/insect_images/aedes_aegypti.jpg"
   },
   {
     "class_id": 23,
@@ -213,7 +236,8 @@
     "vietnamese_name": "Nhện khổng lồ chân vàng",
     "description": "Nhện khổng lồ chân vàng giăng tơ lớn, thường ở nơi thoáng đãng. Chúng là loài săn mồi côn trùng.",
     "danger_level": "Thấp (ít khi cắn người, nọc độc nhẹ)",
-    "handling": "Không cần xử lý trừ khi gây khó chịu."
+    "handling": "Không cần xử lý trừ khi gây khó chịu.",
+    "image_path": "assets/insect_images/nephila_pilipes.jpg"
   },
   {
     "class_id": 24,
@@ -222,7 +246,8 @@
     "vietnamese_name": "Ong bắp cày",
     "description": "Ong bắp cày có thể đốt đau và gây dị ứng ở một số người. Chúng thường làm tổ ở nơi kín đáo.",
     "danger_level": "Trung bình",
-    "handling": "Tránh chọc phá tổ ong, gọi dịch vụ xử lý côn trùng chuyên nghiệp nếu cần."
+    "handling": "Tránh chọc phá tổ ong, gọi dịch vụ xử lý côn trùng chuyên nghiệp nếu cần.",
+    "image_path": "assets/insect_images/vespula_vulgaris.jpg"
   },
   {
     "class_id": 25,
@@ -231,7 +256,8 @@
     "vietnamese_name": "Ong mật châu Á",
     "description": "Ong mật châu Á là loài ong bản địa, hiền lành hơn ong mật châu Âu, có vai trò quan trọng trong thụ phấn.",
     "danger_level": "Thấp (chỉ đốt khi bị đe dọa)",
-    "handling": "Tránh chọc phá tổ ong."
+    "handling": "Tránh chọc phá tổ ong.",
+    "image_path": "assets/insect_images/apis_cerana.jpg"
   },
   {
     "class_id": 26,
@@ -240,7 +266,8 @@
     "vietnamese_name": "Rầy lá",
     "description": "Rầy lá là nhóm côn trùng nhỏ, chích hút nhựa cây, có thể truyền virus gây bệnh cho cây trồng.",
     "danger_level": "Trung bình",
-    "handling": "Phun thuốc trừ sâu, sử dụng bẫy dính màu vàng."
+    "handling": "Phun thuốc trừ sâu, sử dụng bẫy dính màu vàng.",
+    "image_path": "assets/insect_images/leafhopper.jpeg"
   },
   {
     "class_id": 27,
@@ -249,7 +276,8 @@
     "vietnamese_name": "Rết khổng lồ chân vàng",
     "description": "Rết khổng lồ chân vàng có thể cắn đau và gây sưng tấy. Chúng là loài săn mồi các loài côn trùng nhỏ.",
     "danger_level": "Trung bình",
-    "handling": "Giữ nhà cửa khô ráo, dọn dẹp nơi ẩm thấp, mang giày dép khi ra ngoài."
+    "handling": "Giữ nhà cửa khô ráo, dọn dẹp nơi ẩm thấp, mang giày dép khi ra ngoài.",
+    "image_path": "assets/insect_images/scolopendra_subspinipes.jpg"
   },
   {
     "class_id": 28,
@@ -258,7 +286,8 @@
     "vietnamese_name": "Sâu tơ",
     "description": "Sâu tơ là loài sâu hại nguy hiểm trên các cây thuộc họ thập tự (bắp cải, súp lơ,...).",
     "danger_level": "Cao",
-    "handling": "Sử dụng thuốc trừ sâu sinh học và hóa học luân phiên, áp dụng biện pháp IPM."
+    "handling": "Sử dụng thuốc trừ sâu sinh học và hóa học luân phiên, áp dụng biện pháp IPM.",
+    "image_path": "assets/insect_images/plutella_xylostella.jpg"
   },
   {
     "class_id": 29,
@@ -267,6 +296,7 @@
     "vietnamese_name": "Ve sầu mặt đen",
     "description": "Ve sầu mặt đen là loài ve sầu lớn, thường kêu vào mùa hè. Ấu trùng sống dưới đất hút rễ cây.",
     "danger_level": "Thấp (không gây hại đáng kể)",
-    "handling": "Không cần xử lý."
+    "handling": "Không cần xử lý.",
+    "image_path": "assets/insect_images/cryptotympana_facialis.jpg"
   }
 ]

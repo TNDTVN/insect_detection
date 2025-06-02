@@ -23,6 +23,7 @@ dependencies:
   animate_do: ^3.3.4
   shared_preferences: ^2.2.3
   provider: ^6.1.5
+  carousel_slider: ^5.0.0
 
 dev_dependencies:
   flutter_test:
@@ -36,6 +37,10 @@ flutter:
     - assets/splash.png
     - assets/insects.json
     - assets/profile.jpg
+    - assets/images/carousel1.jpg
+    - assets/images/carousel2.png
+    - assets/images/carousel3.png
+    - assets/insect_images/
 
 flutter_launcher_icons:
   android: true
