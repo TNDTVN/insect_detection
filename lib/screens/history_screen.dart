@@ -126,38 +126,70 @@ class _HistoryScreenState extends State<HistoryScreen> {
     try {
       print('Gửi xóa: detectionId=$detectionId, userId=${widget.userId}');
 
-      if (widget.userId != 0) {
-        final response = await http
-            .post(
-          Uri.parse('$apiBaseUrl/delete_detection'),
-          headers: {'Content-Type': 'application/json'},
-          body: jsonEncode({
-            'detectionId': detectionId,
-            'userId': widget.userId,
-          }),
-        )
-            .timeout(
-          const Duration(seconds: 10),
-          onTimeout: () {
-            throw TimeoutException('Yêu cầu xóa bản ghi quá thời gian');
-          },
-        );
+      // Tìm bản ghi lịch sử để lấy image_url
+      final history = DetectionHistory();
+      final localHistories = await history.getDetections(widget.userId);
+      final targetHistory = localHistories.firstWhere(
+        (h) => h['id'] == detectionId,
+        orElse: () => {},
+      );
+      final imageUrl =
+          targetHistory.isNotEmpty ? targetHistory['image_url'] : null;
 
-        print(
-            'Phản hồi từ delete_detection: ${response.statusCode} - ${response.body}');
-
-        if (response.statusCode != 200 && response.statusCode != 404) {
-          print('Lỗi xóa trên server: ${response.body}');
-          if (mounted) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(content: Text('Lỗi xóa trên server: ${response.body}')),
-            );
-          }
-          return;
+      if (imageUrl == null) {
+        print('Không tìm thấy image_url cho detectionId=$detectionId');
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Không tìm thấy thông tin ảnh')),
+          );
         }
+        return;
       }
 
-      final history = DetectionHistory();
+      // Gửi yêu cầu xóa đến server, bao gồm image_url
+      final response = await http
+          .post(
+        Uri.parse('$apiBaseUrl/delete_detection'),
+        headers: {'Content-Type': 'application/json'},
+        body: jsonEncode({
+          'detectionId': detectionId,
+          'userId': widget.userId,
+          'imageUrl': imageUrl, // Thêm image_url vào body
+        }),
+      )
+          .timeout(
+        const Duration(seconds: 10),
+        onTimeout: () {
+          throw TimeoutException('Yêu cầu xóa bản ghi quá thời gian');
+        },
+      );
+
+      print(
+          'Phản hồi từ delete_detection: ${response.statusCode} - ${response.body}');
+
+      if (response.statusCode != 200) {
+        print('Lỗi xóa trên server: ${response.body}');
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text('Lỗi xóa trên server: ${response.body}')),
+          );
+        }
+        return;
+      }
+
+      // Phân tích phản hồi từ server
+      final jsonResponse = jsonDecode(response.body);
+      if (jsonResponse['status'] != 'success') {
+        print('Xóa không thành công: ${jsonResponse['message']}');
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text('Lỗi: ${jsonResponse['message']}')),
+          );
+        }
+        return;
+      }
+
+      // Xóa bản ghi cục bộ sau khi server xác nhận thành công
       await history.deleteDetection(detectionId);
 
       setState(() {
